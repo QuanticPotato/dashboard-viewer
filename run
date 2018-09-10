@@ -1,7 +1,7 @@
 #!/bin/bash
 # set -euo pipefail
 set -x
-URL=${URL:-http://jodel-app.com}
+URL=${URL:-https://p.datadoghq.com/sb/42c2cc0b7-6c7d7a0eb5cb6a47078abf320b0aa847}
 
 export PASS=${PASS:=root}
 echo "root:$PASS" | chpasswd
